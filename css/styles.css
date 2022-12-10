@@ -1,6 +1,31 @@
+/* *,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+} */
+
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .lsn {
@@ -8,18 +33,16 @@ body {
 }
 
 .btn {
-font-size: 18px;
-line-height: 1.22;
-text-transform: uppercase;
-border-radius: 5px;
-padding: 14px 24px;
-
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 9.5px 24px;
 }
 .btn--header {
-  
-  border: 1px solid #F7941E;
+  border: 1px solid #f7941e;
   border-width: 1px;
-  color: #F7941E;
+  color: #f7941e;
 }
 
 /* .link {
@@ -56,16 +79,36 @@ padding: 14px 24px;
 }
 
 .navigation__list {
-  
   display: flex;
   align-items: center;
   gap: 31px;
   flex-wrap: wrap;
 }
 .navigation__link {
+  display: block;
+  padding: 47px 0;
   color: black;
   font-size: 18px;
   line-height: 1.22;
 }
 
+.blog-text h1,
+.blog-text h2,
+.blog-text h3,
+.blog-text h4,
+.blog-text h5,
+.blog-text h6 {
+  margin: 15px 0;
+}
+/* .blog-text *:first-of-type{
+  margin-top: 0;
+} */
 
+.blog-text ol,
+.blog-text ul,
+.blog-text p {
+  margin: 10px 0;
+}
+.blog-text ul {
+  list-style-position: inside;
+}
