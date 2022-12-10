@@ -3,6 +3,29 @@ body {
   letter-spacing: 0.03em;
 }
 
+.lsn {
+  list-style: none;
+}
+
+.btn {
+font-size: 18px;
+line-height: 1.22;
+text-transform: uppercase;
+border-radius: 5px;
+padding: 14px 24px;
+
+}
+.btn--header {
+  
+  border: 1px solid #F7941E;
+  border-width: 1px;
+  color: #F7941E;
+}
+
+/* .link {
+  text-decoration: none;
+} */
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -21,3 +44,28 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.header a {
+  text-decoration: none;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.navigation__list {
+  
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  flex-wrap: wrap;
+}
+.navigation__link {
+  color: black;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+
